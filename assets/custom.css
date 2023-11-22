@@ -1,0 +1,692 @@
+
+
+/* Puts navigation and logo on the same line 
+nav.header__inline-menu {
+    margin-left: 335px !important;
+    position: absolute !important;
+}*/
+  
+  
+  
+/* Overall typography styling */
+
+
+/* Styles paragraph font */
+p {font-family: 'Poppins', sans-serif;
+  font-size: .85em;
+}
+
+/* Styles h1, homepage titles with .h1 class, "You may also like" on product page, title for FAQ page, title for extra pages  */
+.h1, h1, .product-recommendations__heading, #easy-faq-app-header, .main-page-title, .h2, .h0 { 
+  font-family: 'Cormorant Infant', serif;
+    font-weight: 300 !important;
+    font-style: normal;
+  text-transform: none;
+  }
+
+
+
+
+/* Styles main menu items and mobile menu dropdown */
+a.list-menu__item, #Details-HeaderMenu-2 > summary, .menu-drawer__menu-item, button.menu-drawer__close-button, header-menu>details, .header__menu-item {
+   font-family: 'Cormorant Infant', serif;
+    font-style: normal;
+  text-decoration: none;
+  letter-spacing: .1em;
+    text-transform: uppercase;
+  letter-spacing: .2em;
+font-size: 12px !important;
+  font-weight: 300;
+}
+
+/* Styles product card title, category card titles, blog card titles, "back to blog" link, product details (shipping & returns, dimensions, etc.) */
+.card__heading a, .article-template__link, a.link.animate-arrow, .accordion__title.h4, .product-form__quantity {
+font-family: 'Fahkwang', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  text-decoration: none;
+  letter-spacing: .1em;
+font-size: calc(var(--font-heading-scale) * 1.3rem);
+  text-transform: none;
+}
+
+/* Styles FILTER, SORT BY and PRODUCTS */
+    .facets__heading, .facet-filters__label, .product-count__text {
+  font-family: 'Cormorant Infant', serif;
+    font-weight: 200;
+    font-style: normal;
+  text-decoration: none;
+  letter-spacing: .1em;
+  text-transform: none;
+    }
+
+/* Styles AVAILABILITY, PRICE and FEATURED */
+.facets__summary, .facet-filters__sort {
+  letter-spacing: 3.11px;
+text-transform: uppercase;
+font-weight: 200;
+font-family: Poppins,sans-serif;
+  color: #877159 !important;
+}
+
+/* Font size for AVAILABILITY and PRICE */
+.facets__summary {
+font-size: .6em !important;
+}
+
+/* Font size for FEATURED */
+.facet-filters__sort {
+font-size: .8em !important;
+}
+
+/* Styles h3 on blog, section titles on FAQ page, h3 on regular page, and FAQ section headers */
+.article-template__content > h3, .faq-plus-accordian > h2, .page-width--narrow > div > h3, .collapsible-content__header p {
+font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+text-transform: uppercase;
+font-size: 1rem;
+font-weight: 700;
+}
+
+.collapsible-content__header p {
+color: #877159;
+}
+
+/* Styles "Most Loved Items" collection title on the homepage, icon titles on the homepage, "From the blog" title on the homepage, and blog article h2 */
+.title, .multicolumn-list h3,  .blog__title.h1, .blog__title.h2, .blog__title.h0, .article-template__content > h2 {
+padding-top: 1.5rem!important;
+color: #877159;
+     font-family: 'Cormorant Infant', serif;
+    font-weight: 300 !important;
+    font-style: italic;
+  text-transform: none;
+margin-bottom: 0px;
+}
+
+/* Adds padding to the bottom of the contact widget title */
+.contact .title {
+  padding-bottom: 20px;
+}
+
+/* Styles h2 on everything but the homepage */
+h2 {
+letter-spacing: 3.11px;
+text-transform: uppercase;
+font-size: 15px;
+font-weight: 200;
+font-family: 'Poppins', sans-serif;
+}
+
+  
+  
+  
+  
+  
+  
+/* Menu Styling */  
+
+/* Styles menu items */
+.header__active-menu-item, .header__menu-item span {
+  text-decoration: none !important;
+}
+
+/* Styles menu left and right padding */
+.header__menu-item {
+  padding-left: 20px;
+padding-right: 20px;
+}
+
+/* Styles menu hover color */
+.header__active-menu-item:hover {
+  color:#8c8c8c;
+}
+
+
+
+  
+  
+  
+  
+  
+  
+/* Homepage Styling */ 
+
+/* Styles search and shopping icons in header */
+.header__icon {
+  color: #1c1c1c;
+}
+
+/* Main Banner - Image with Text */
+
+/* Styles homepage top banner subtitle */
+.image-with-text__text.subtitle {
+  text-transform: uppercase;
+letter-spacing: .5rem;
+font-size: 1.1rem;
+font-weight: 600;
+font-family: 'Poppins', sans-serif;
+}
+
+ /* Styles header text when overlapping */
+.image-with-text--overlap .h1, .image-with-text--overlap .h2, .image-with-text--overlap .h0 {
+  color:#877159;
+}
+
+
+
+
+/* Shop Bestsellers Section - Collections */ 
+
+
+/* Centers "Shop Bestsellers" collection title on the homepage, icon titles on the homepage, and "From the blog" title on the homepage */
+.title, .multicolumn-list h3,  .blog__title.h1, .blog__title.h2, .blog__title.h0 {
+text-align: center;
+  margin: 0 auto !important;
+}
+
+
+
+
+/* Popular Collections Section - Collections 2 */ 
+
+
+ /* Styles prices under product cards */ 
+  .price {
+   font-size: 1.2rem !important;
+     font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+  text-decoration: none;
+  font-style: italic;
+  }
+
+ /* Styles collection heading "Popular Collections" */
+.collection-list-title {
+  text-align:center;
+  margin: 10px auto !important;
+color: #877159;
+     font-family: 'Cormorant Infant', serif;
+    font-weight: 300 !important;
+    font-style: italic;
+}
+
+
+
+/* Homepage Blog Section */ 
+
+/* Aligns blog post titles center on the homepage */
+.blog__posts .article-card .card__information {
+  text-align: center;
+}
+
+  
+  
+  
+  
+  
+/* Button Styling */
+
+/* Styles button on image with text section on homepage */ 
+a.button.button--primary, a.button.button--primary:active, a.button.button--primary:visited {
+color:#877159;
+background-color:rgba(255, 255, 255, 0);
+  border:none;
+  --border-offset:none;
+padding:10px 0 4px 0;
+font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+text-transform: uppercase;
+font-size: .725rem;
+font-weight: 700;
+line-height: 1.25rem;
+border-bottom: 1px solid #877159;
+  min-height:0px;
+  opacity:1;
+border-radius: 0px;
+  min-width: 2rem;
+}
+
+/* Styles length of underline buttom */ 
+.button, .shopify-challenge__button, .customer button, button.shopify-payment-button__button--unbranded 
+{
+min-width: calc(9rem + var(--buttons-border-width));
+}
+
+/* Styles image with text button */ 
+.image-with-text a.button.button--primary{
+      border-radius: 50%;
+  border: 1px solid #877159 !important;
+  --color-button: none !important;
+  color:#877159 !important;
+  opacity:1;
+  padding:10px;
+}
+
+/* Styles button on image with text section on homepage hover state*/ 
+a.button.button--primary:hover {
+   opacity:.5;
+  transition: ease-in-out all .8s
+}
+
+/* Styles button on image with text section on homepage, removes black border box */ 
+a.button.button--primary:before, a.button.button--primary:after {
+   border:none;
+  --border-offset:none;
+ --border-radius:none;
+}
+
+/* Styles button on image with text section on homepage, removes black border box on hover */ 
+a.button.button--primary:hover:after {
+--border-offset: none;
+}
+
+
+
+  /* Styles "view all" underline link on homepage, hover state  */ 
+  .underlined-link:hover {
+font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+text-transform: uppercase;
+font-size: .725rem;
+font-weight: 700;
+       opacity:.5;
+  transition: ease-in-out all .8s
+  } 
+  
+    /* Styles oval button on homepage */ 
+.button--secondary  {
+font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+text-transform: uppercase;
+font-size: .725rem;
+font-weight: 700;
+  }
+  
+   /* Styles "view all" underline link on homepage */
+  .underlined-link {
+padding: 10px;
+    font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+text-transform: uppercase;
+font-size: .725rem;
+font-weight: 700;
+  } 
+  
+/* Styles "buy it now" button on product page, category view all solid button and "send" button on contact page  */ 
+button.shopify-payment-button__button--unbranded, .contact__button .button, .collection__view-all .button {
+  --border-offset: none;
+font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+text-transform: uppercase;
+font-size: .725rem;
+font-weight: 700;
+}
+
+
+
+.button, .shopify-challenge__button, .customer button, button.shopify-payment-button__button--unbranded {
+font-family: Poppins,sans-serif;
+letter-spacing: 2px;
+text-transform: uppercase;
+font-size: .725rem;
+font-weight: 700;
+}
+ 
+
+  
+  
+/* Blog Styling */
+
+/* Hides blog excerpt */
+.article-card__excerpt {
+  display: none;
+}
+
+/* Hides "News" title for blog page */
+.main-blog > h1 {
+display:none;
+}
+
+/* Styles "back to blog" link with italics */
+.article-template__link {
+   font-style:italic !important;
+ }
+  
+  
+  
+  
+  
+/* FAQ Page Styling */
+  
+/* Changes color on the FAQ page title */
+#easy-faq-app-header { 
+color: rgb(65, 66, 66);
+}
+
+/* Styles line height and letter spacing for paragraphs in FAQ answers */
+.faqPlusAppContent p {
+  letter-spacing: 0.06rem;
+line-height: calc(1 + 0.8 / var(--font-body-scale));
+}
+  
+ /* Styles FAQ questions. Same as .title above but no padding */
+.accordion__title {
+  letter-spacing: 3.11px;
+text-transform: uppercase;
+font-size: 15px;
+font-weight: 200;
+margin-bottom: 0px;
+font-family: 'Poppins', sans-serif;
+} 
+/* Removes border on questions */ 
+  .accordion {
+    border-top:none !important;
+    border-bottom:none !important;
+  }
+/* Removes background color on hover on questions */ 
+    .collapsible-content summary:hover {
+  background-color: #fff !important;
+    }
+  /* Removes underline on hover on questions */ 
+  .collapsible-content summary:hover .accordion__title {
+        text-decoration: none !important;
+  }
+
+  
+  
+  
+  
+/* Product Page Styling */ 
+ 
+/* Styles top padding on "You may also like" on product page */
+product-recommendations.product-recommendations.page-width {
+  padding-top: 5%;
+}
+
+  
+  
+  /* Multi-Column Styling */ 
+ 
+ Styles optional link color for multi-column section
+  
+  a.link.animate-arrow {
+   color:#B78747;
+  }
+
+
+  
+  
+  
+ 
+ /* About Page Styling */ 
+ 
+/* Styles caption text on image with text aka "meet the founder" */
+  .image-with-text__text--caption {
+color: #877159;
+     font-family: 'Cormorant Infant', serif;
+    font-weight: 300 !important;
+    font-style: italic;
+  text-transform: none;
+    font-size: calc(var(--font-heading-scale) * 5.9rem);
+    margin-top: 0px !important;
+  }
+
+
+  
+ 
+/* Footer Styling */
+
+
+/* Styles footer section headers */
+.footer-block__heading {
+letter-spacing: 3.11px;
+text-transform: uppercase;
+font-weight: 200;
+font-family: 'Poppins', sans-serif;
+font-size: .6em !important;
+}
+
+/* Styles mission statement paragraph & email label on subscription form */
+.footer-block__details-content p, .field__label {
+     font-family: 'Cormorant Infant', serif;
+    font-weight: 200;
+  text-decoration: none;
+  letter-spacing: .1em;
+  font-style: italic;
+}
+  .footer a.list-menu__item {
+        font-family: 'Cormorant Infant', serif;
+    font-weight: 200;
+font-style: normal;
+text-decoration: none;
+    text-transform:none;
+letter-spacing: .1em;
+  }
+
+/* Removes border and top padding from bottom site credit section */
+#shopify-section-footer > footer > div.footer__content-bottom {
+border-top: none;
+padding-top: 0px;
+}
+
+/* Adds more top padding */
+.footer {
+padding-top: 5% !important;
+}  
+  
+  
+  
+  
+  
+  
+/* Sticky Bar Styling for popup email coupon code*/
+
+/* Changes sticky bar background color */   
+.ba-sticky-coupon-bar {
+background-color: #F7F6F2 !important;
+}
+  
+/* Changes sticky bar message color */ 
+.ba-sticky-coupon-bar-message {
+  color: #646160 !important;
+      letter-spacing: 0.06rem !important;
+font-family: 'Poppins', sans-serif !important;
+    font-size: .75em !important;
+}
+
+/* Styles Marquee Text */
+
+/* Styles Marquee container */  
+  .marquee-container {
+      background: #CEC8BC;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+overflow: hidden;
+}
+
+.marquee {
+margin: 0;
+display: flex;
+}
+
+/* Styles Marquee text */  
+.marquee-words {
+white-space: nowrap;
+animation: marquee-keywords 20s linear infinite running;
+color: #fff;
+letter-spacing: 3.11px;
+text-transform: uppercase;
+font-size: 12px;
+font-weight: 200;
+font-family: 'Poppins', sans-serif;
+padding-top: 8px;
+padding-bottom: 8px;
+  display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s ease;
+}
+
+  
+@keyframes marquee-keywords {
+0% {
+transform: translateX(0%);
+}
+100% {
+transform: translateX(-50%);
+}
+}
+  
+  
+  
+  
+  
+  
+  
+  
+/* Testimonial Styling */
+
+/* Styles header */
+ .testimonial .banner__heading {
+     font-family: 'Cormorant Infant', serif;
+    font-weight: 300 !important;
+    font-style: italic;
+color: #1c1c1c;
+   margin-bottom:100px;
+   margin-top: -20px !important;
+ }
+
+/* Styles quote */
+ .testimonial .banner__text span {
+font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  text-decoration: none;
+  letter-spacing: .1em;
+font-size: 14px !important;
+   color:#1c1c1c;
+   line-height: 4.1rem;
+   margin-top:30px !important;
+ }
+
+/* Makes the background white */
+ .testimonial .placeholder {
+background-color: #fff !important;
+color: #fff;
+fill: #fff;
+}
+
+/* Keeps text in a smaller window */
+ .testimonial .slideshow__text.banner__box {
+max-width: 62.5rem;
+}
+
+/* Styles vertical line */
+ .testimonial .banner__text:before {
+content: "";
+display: block;
+position: absolute;
+z-index: 1;
+border-left: 1px solid #1c1c1c;
+            height: 80px;
+            left: 50%;
+  margin-top: -90px;
+ }
+
+/* Styles attribution name */
+ .testimonial a.button.button--primary {
+color: #877159;
+   border-bottom:none;
+   font-size: .85rem;   
+  font-family: 'Fahkwang', sans-serif;
+  letter-spacing: .1em;
+}
+
+/* Removes slideshow play button */
+.testimonial .slideshow__autoplay.slider-button {
+       display:none;
+  }
+
+/* Removes border for slideshow buttons */
+.testimonial .slideshow__controls {
+border: none;
+}
+
+/* Changes background color for slideshow buttons */
+.testimonial .slider-buttons {
+  background-color: #fff;
+}
+
+
+
+
+
+
+/* Parallax Styling */
+
+/* Styles parallax header */
+.lunatemplates-parallax h1 {
+color: #877159 !important;
+font-family: 'Cormorant Infant', serif;
+font-weight: 300 !important;
+font-style: italic;
+}
+
+/* Styles parallax paragraph */
+.lunatemplates-parallax p {
+font-weight: 300 !important;
+}
+
+/* Styles parallax button */
+.luna-btn {
+  font-family: 'Poppins', sans-serif;
+letter-spacing: 2px;
+text-transform: uppercase;
+font-size: .725rem !important;
+font-weight: 700;
+  padding: 10px 16px !important;
+}
+
+
+
+
+/* Mobile Styling */
+
+/* Changes...
+
+@media only screen and (min-width: 320px) {
+
+}
+
+
+@media only screen and (min-width: 991px) {
+
+}
+
+  
+@media only screen and (min-width: 1270px) {
+
+} */  
+
+
+
+
+
+
+/* Changes menu to hamburger style */
+
+@media screen and (min-width: 990px){
+.header--top-center>.header__search, .header:not(.header--top-center) *>.header__search {display: none !important;}
+.header:not(.header--middle-left) .header__inline-menu { display: none !important;}
+.header--top-center *>.header__search, .header:not(.header--top-center)>.header__search { display: inline-flex !important;}
+header-drawer {display: block !important;}
+}
+
+  /* Removes some padding from the menu */
+  @media screen and (min-width: 990px) {
+.header {
+padding-top: .5rem;
+  padding-bottom: 1rem;
+}
+  }
+
